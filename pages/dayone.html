@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>This my first Page</title>
-	<link rel="stylesheet" type="text/css" href="../stylesheets/mystylesheet.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheets/dayfivecss.css">
 </head>
 <header>
 	<a id="header"></a>
@@ -15,12 +15,12 @@
 	<img src="../images/images.jpg">
 	<aside>
 		<ul>
-			<li><p class="extramargin">This is my List of things</p></li>
+			<li><p class="extramargin">This is my List of things </p> <p>Test1</p> <p>Test2</p> <p>Test3</p></li>
 			<li><p>We are learning how to use &lt;aside&gt;.</p></li>
 		</ul>
 	</aside>
 	<aside id="noside">
-		<p>I do not want to move to the side.</p>
+		<p>I do not want to move to the side. </p>
 	</aside>
 	<div>
 		<p>This looks the same.</p>
@@ -34,28 +34,45 @@
 			<option value="green">Green</option>
 		</select>
 	</section>
-	<table>
+	<table id="first">
 	 <thead>
-	 	<tr>
+	 	<tr class="firstrow">
 	 		<th>First Col</th>
 	 		<th>Second Col</th>
 	 	</tr>
 	 </thead>
 	 <tbody>
-	 	<tr>
+	 	<tr class="firstrow">
 	 		<td>Bike!</td>
 	 		<td>Skate!</td>
 	 	</tr>
-	 	<tr>
+	 	<tr class="firstrow">
 	 		<td>Hello</td>
 	 		<td>Good Bye</td>
 	 	</tr>
-	 	<tr>
+	 	<tr class="firstrow">
 	 		<td>Stop </td>
 	 		<td>Stop</td>
 	 	</tr>
 	 </tbody>
 	</table>
-
+	<table id="best">
+		<thead>
+			<tr class ="bestrow" id="table_header" >  
+				<th colspan="7">This is my Best List</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="bestrow">
+				<td class="bestcol">This is my first child</td>
+				<td class="bestcol">This is my second child</td>
+				<td class="bestcol">Third</td>
+				<td class="bestcol">Fourth</td>
+				<td class="bestcol">Fifth</td>
+				<td class="bestcol">Sixth</td>
+				<td class="bestcol">Seventh</td> 
+			</tr>
+		</tbody>
+	</table>
 </body>
 </html>

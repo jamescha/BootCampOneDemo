@@ -1,0 +1,225 @@
+/*CSS RESET*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*My CSS*/
+
+aside
+{
+	float: right;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	color: blue;
+}
+
+aside#noside {
+	float: center;
+}
+
+body
+{	background-color: black;
+    background-image:url("../images/tardis.jpg");
+    background-size: 100%;
+}
+
+p, header, footer, h1,h2
+{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	float: none;
+}
+
+section#sidebar
+{
+	float: right;
+}
+
+img
+{
+	position: fixed;
+	left: 200px;
+	top: 200px;
+}
+
+.extraMargin {
+	margin: 10px 0;
+}
+
+ol{
+	list-style: disc;
+	color: blue;
+}
+
+ul{
+	list-style: square;
+	color: yellow;
+}
+
+div {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+
+.center{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a:hover{
+	color: red;
+	background-color: green;
+}
+
+a:link {
+	color: white;
+}
+
+a:active {
+	color: purple;
+}
+
+p:hover{
+	color:blue;
+}
+
+table#first
+{
+	position: fixed;
+	color: white;
+	font-size: 50px;
+}
+
+table#best
+{
+	position: absolute;
+	bottom: 10px;
+	background-color: white;
+	border: 5px solid yellow;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+th, td {
+	border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bestcol:first-child{
+	color:blue;
+}
+
+.bestcol:nth-child(3) {
+	color: red;
+	background-color: black;
+}
+
+.bestcol:last-child{
+	background-color: red;
+}
+
+.bestcol:nth-last-child(3) {
+	background-color: orange;
+}
+
+.bestcol:first-of-type{
+	background-color: purple;
+}
+
+.bestcol:last-of-type{
+	color: white;
+}
+
+
+
+
+
+tr#table_header {
+	background-color: green;
+}
+
+.bestrow {
+	background-color: 
+}
+
+.firstrow:nth-of-type(odd) {
+	color:blue;
+}
+
+.firstrow:nth-of-type(even) {
+	background-color: yellow;
+}
+
+
+thead{
+	background-color: white;
+}
+
+p:first-child{color: orange;}
+
+p:nth-child(2) {background-color: purple; }
+
+p:last-child{background-color: yellow;}
+
+p:nth-last-child(2){border-width: 10px; border-style: groove; border-color: #009A56}
