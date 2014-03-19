@@ -141,3 +141,5 @@ tr:nth-of-type(odd) {
 thead{
 	background-color: white;
 }
+
+option:first-child{ background-color: yellow;}

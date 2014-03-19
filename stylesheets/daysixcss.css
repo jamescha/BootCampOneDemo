@@ -1,14 +1,5 @@
-#twocol{
-	column-count: 2;
-}
-div {
+div#twocol{
 	-webkit-column-count:2; /* Safari and Chrome */
-	-webkit-column-gap:40px;
-	column-rule:3px outset #ff00ff;
-	-moz-column-rule:3px outset #ff00ff; /* Firefox */
-	-webkit-column-rule:3px outset #ff00ff; /* Safari and Chrome */
-	width: 300px;
-	background-image:url('../images/tardis.jpg');
-	background-repeat:no-repeat;
-	background-attachment:fixed;
+	-moz-column-count:2; /* Firefox */
+	column-count:2;
 }
